@@ -1,0 +1,65 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    padding: 0.5rem;
+    display: flex;
+    background-color: #EEE;
+    position: relative;
+}
+
+.header h3 {
+    margin: 0.5rem;
+}
+
+#srno {
+    position: absolute;
+    right: 0.5rem;
+}
+
+#start-button {
+    /* align-content: center; */
+    text-align: center;
+    padding: 0.5rem;
+}
+
+#start-button:hover {
+    background-color: #EEE;
+}
+
+#start-button h2 {
+    margin: 0;
+    pointer-events: none;
+}
+
+.main-content {
+    position: relative;
+    width: 100vw;
+    height: 70vh;
+}
+
+#graph {
+    width: 50%;
+    height: 60%;
+
+    position: absolute;
+    top: 50%;
+    left: 1rem;
+    transform: translateY(-50%);
+
+    background-color: #EEE;
+}
+#values {
+    width: 40%;
+    height: 80%;
+
+    position: absolute;
+    top: 50%;
+    right: 1rem;
+    transform: translateY(-50%);
+
+    background-color: #EEE;
+}

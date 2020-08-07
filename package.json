@@ -1,0 +1,14 @@
+{
+  "name": "qc",
+  "version": "1.0.0",
+  "description": "quality control app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Ramit Shivansh",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^9.1.2"
+  }
+}
